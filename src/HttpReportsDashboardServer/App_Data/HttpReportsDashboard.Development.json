@@ -5,8 +5,5 @@
       "Microsoft": "Warning",
       "Microsoft.Hosting.Lifetime": "Information"
     }
-  },
-  "AllowedHosts": "*",
-  // 配置扫描目录
-  "ConfigurationScanDirectories": [ "App_Data" ]
+  }
 }

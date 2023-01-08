@@ -7,7 +7,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HttpReports.Storage.Sqlite"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HttpReportsDashboardServer", "HttpReportsDashboardServer\HttpReportsDashboardServer.csproj", "{6E40470E-76F7-43C2-A87C-4AD7D86B11BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoApi", "DemoApi\DemoApi.csproj", "{49231D13-0985-4B61-B071-264BF7B16839}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoApi", "DemoApi\DemoApi.csproj", "{49231D13-0985-4B61-B071-264BF7B16839}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "解决方案项", "解决方案项", "{84B317A3-9E52-45A5-832B-4BC1D75A2DE7}"
+	ProjectSection(SolutionItems) = preProject
+		..\README.md = ..\README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
