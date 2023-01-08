@@ -1,5 +1,10 @@
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Configuration
+    .AddJsonFile("App_Data/appsettings.json", optional: true, reloadOnChange: true)
+    .AddJsonFile($"App_Data/appsettings.{builder.Environment.EnvironmentName}.json", optional: true, reloadOnChange: true)
+    ;
+
 var httpReportsBuilder = builder.Services.AddHttpReportsDashboard();
 var storageDBType = builder.Configuration.GetValue<StorageDBType>("HttpReportsDashboard:Storage:DbType");
 switch (storageDBType)
