@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+	  <ImplicitUsings>enable</ImplicitUsings>
+	  <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HttpReports.Dashboard" Version="2.6.3" />
+    <PackageReference Include="HttpReports.MySQL" Version="2.6.3" />
+    <PackageReference Include="HttpReports.PostgreSQL" Version="2.6.3" />
+    <PackageReference Include="HttpReports.SQLServer" Version="2.6.3" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.17.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HttpReports.Storage.Sqlite\HttpReports.Storage.Sqlite.csproj" />
+  </ItemGroup>
+
+</Project>

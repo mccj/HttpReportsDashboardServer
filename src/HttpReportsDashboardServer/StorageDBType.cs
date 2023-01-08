@@ -1,0 +1,1 @@
+public enum StorageDBType { Sqlite, SQLServer, MySQL, PostgreSQL }
